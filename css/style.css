@@ -13,10 +13,35 @@
     clear: both;
 }
 
-.first-container {
+
+.container {
     width: 1100px;
-    height: 80px;
     margin: auto;
     margin-top: 20px;
+    
+}
+
+.container.first {
+    height: 80px;
     background-color: #FF69B4;
+}
+
+.container.second {
+    height: 220px;
+    background-color: #F0E68C;
+}
+
+.container.third {
+    height: 320px;
+    background-color: #1E90FF;
+}
+
+/* footer */
+
+.last-part {
+    width: 1100px;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #9400D3;
 }
