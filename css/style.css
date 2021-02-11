@@ -7,7 +7,7 @@
 /* UTILITIES */
 
 
-.clearfix::after {
+.columns.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -19,16 +19,21 @@
     margin: auto;
     margin-top: 20px;   
 }
-
+ 
+/*first container */
 .container.first {
     height: 80px;
     background-color: #FF69B4;
 }
 
+/*second container*/
+
 .container.second {
     height: 220px;
     background-color: #F0E68C;
 }
+
+/*third container + columns */
 
 .container.third {
     height: 320px;
