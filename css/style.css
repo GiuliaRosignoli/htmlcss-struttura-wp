@@ -4,3 +4,19 @@
     box-sizing: border-box;
 }
 
+/* UTILITIES */
+
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.first-container {
+    width: 1100px;
+    height: 80px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #FF69B4;
+}
